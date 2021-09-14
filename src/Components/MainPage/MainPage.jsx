@@ -19,6 +19,9 @@ function MainPage() {
               <FontAwesomeIcon icon={faClipboard} className="Projects"/>
             </div>
           </div>
+          <div className="Notify">
+            <span className="NotifyGithub">github.com/lewisforyou</span>
+          </div>
       </div>
     );
   }

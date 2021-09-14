@@ -5,7 +5,7 @@
   display: flex;
   position: relative;
   font-family: Sirichana;
-  background: rgb(34, 40, 49);
+  background: rgb(34, 40, 49) none repeat scroll 0% 0%;
 }
 @font-face {
   font-family: "NetAdora1";

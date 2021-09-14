@@ -16,7 +16,7 @@
     left: 160px;
     position: absolute;
     top: 0%;
-    /* background-color: blueviolet; */
+    background-color: blueviolet;
     width: 250px;
     height: 150px;
 }
@@ -31,7 +31,7 @@
     line-height: 50px;
     height: auto;
     position: relative;
-    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .Emoji{
     font-size: 50px
@@ -45,7 +45,7 @@
     position: absolute;
     top: 115px;
     font-weight: 500;
-    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .Icons{
     font-size: 35px;
@@ -63,4 +63,14 @@
 .Projects{
     color: #007bff;
     margin-left: 30px;
+}
+
+.NotifyGithub{
+    color: rgb(133, 19, 19);
+    position: absolute;
+    right: 40%;
+    background-color: yellow;
+    border-radius: 10px;
+    width: 130px;
+    text-align: center;
 }
