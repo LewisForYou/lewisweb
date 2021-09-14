@@ -66,11 +66,18 @@
 }
 
 .NotifyGithub{
-    color: rgb(133, 19, 19);
+    color: rgba(0, 0, 0, 1);
     position: absolute;
     right: 40%;
-    background-color: yellow;
+    bottom: 5%;
+    background-color: white;
     border-radius: 10px;
     width: 130px;
     text-align: center;
+}
+.NotifyGithub::after {
+    content: ''; 
+    position: absolute;
+    left: 40%; bottom: 20px;
+    border: 13px solid transparent; border-bottom: 12px solid rgb(255, 255, 255); 
 }
