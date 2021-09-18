@@ -3,10 +3,13 @@ import {
     Link
   } from 'react-router-dom';
 import './route.css'
+
+import HomeIcon from '../SVGicons/HomeIcon.svg'
+
 function routeProjects(){
     return(
         <Route>
-            <Link to="/"><span className="route">projects</span></Link>
+            <Link to="/"><img src={HomeIcon} alt="homeicon" className="HomeIcon" /></Link>
         </Route>
     )
 }

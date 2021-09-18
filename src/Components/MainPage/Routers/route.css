@@ -1,4 +1,14 @@
 .route{
     position: absolute;
-    color: white;
+    color: white;   
+}
+.HomeIcon{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    position: absolute;             
+    top: 50%;                         
+    transform: translate(-50%, -50%)
 }
