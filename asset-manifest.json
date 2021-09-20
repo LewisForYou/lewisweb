@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/LewisForYou.github.io.git/static/css/main.226b7b80.chunk.css",
-    "main.js": "/LewisForYou.github.io.git/static/js/main.8e6783a3.chunk.js",
-    "main.js.map": "/LewisForYou.github.io.git/static/js/main.8e6783a3.chunk.js.map",
-    "runtime-main.js": "/LewisForYou.github.io.git/static/js/runtime-main.12dc0703.js",
-    "runtime-main.js.map": "/LewisForYou.github.io.git/static/js/runtime-main.12dc0703.js.map",
-    "static/js/2.e2289acc.chunk.js": "/LewisForYou.github.io.git/static/js/2.e2289acc.chunk.js",
-    "static/js/2.e2289acc.chunk.js.map": "/LewisForYou.github.io.git/static/js/2.e2289acc.chunk.js.map",
-    "static/js/3.5acdeb34.chunk.js": "/LewisForYou.github.io.git/static/js/3.5acdeb34.chunk.js",
-    "static/js/3.5acdeb34.chunk.js.map": "/LewisForYou.github.io.git/static/js/3.5acdeb34.chunk.js.map",
-    "index.html": "/LewisForYou.github.io.git/index.html",
-    "static/css/main.226b7b80.chunk.css.map": "/LewisForYou.github.io.git/static/css/main.226b7b80.chunk.css.map",
-    "static/js/2.e2289acc.chunk.js.LICENSE.txt": "/LewisForYou.github.io.git/static/js/2.e2289acc.chunk.js.LICENSE.txt",
-    "static/media/CubeSVG.16ff96c7.svg": "/LewisForYou.github.io.git/static/media/CubeSVG.16ff96c7.svg",
-    "static/media/App.css": "/LewisForYou.github.io.git/static/media/Sirichana W31 Bold.7bdc3a16.ttf",
-    "static/media/GithubIcon.9e3ff1f7.svg": "/LewisForYou.github.io.git/static/media/GithubIcon.9e3ff1f7.svg",
-    "static/media/HomeIcon.91b6b16a.svg": "/LewisForYou.github.io.git/static/media/HomeIcon.91b6b16a.svg",
-    "static/media/TelegramIcon.66c2ba56.svg": "/LewisForYou.github.io.git/static/media/TelegramIcon.66c2ba56.svg"
+    "main.css": "/lewiswebsitehost/static/css/main.b94e5996.chunk.css",
+    "main.js": "/lewiswebsitehost/static/js/main.8e6783a3.chunk.js",
+    "main.js.map": "/lewiswebsitehost/static/js/main.8e6783a3.chunk.js.map",
+    "runtime-main.js": "/lewiswebsitehost/static/js/runtime-main.3e1546ad.js",
+    "runtime-main.js.map": "/lewiswebsitehost/static/js/runtime-main.3e1546ad.js.map",
+    "static/js/2.e2289acc.chunk.js": "/lewiswebsitehost/static/js/2.e2289acc.chunk.js",
+    "static/js/2.e2289acc.chunk.js.map": "/lewiswebsitehost/static/js/2.e2289acc.chunk.js.map",
+    "static/js/3.5acdeb34.chunk.js": "/lewiswebsitehost/static/js/3.5acdeb34.chunk.js",
+    "static/js/3.5acdeb34.chunk.js.map": "/lewiswebsitehost/static/js/3.5acdeb34.chunk.js.map",
+    "index.html": "/lewiswebsitehost/index.html",
+    "static/css/main.b94e5996.chunk.css.map": "/lewiswebsitehost/static/css/main.b94e5996.chunk.css.map",
+    "static/js/2.e2289acc.chunk.js.LICENSE.txt": "/lewiswebsitehost/static/js/2.e2289acc.chunk.js.LICENSE.txt",
+    "static/media/CubeSVG.16ff96c7.svg": "/lewiswebsitehost/static/media/CubeSVG.16ff96c7.svg",
+    "static/media/App.css": "/lewiswebsitehost/static/media/Sirichana W31 Bold.7bdc3a16.ttf",
+    "static/media/GithubIcon.9e3ff1f7.svg": "/lewiswebsitehost/static/media/GithubIcon.9e3ff1f7.svg",
+    "static/media/HomeIcon.91b6b16a.svg": "/lewiswebsitehost/static/media/HomeIcon.91b6b16a.svg",
+    "static/media/TelegramIcon.66c2ba56.svg": "/lewiswebsitehost/static/media/TelegramIcon.66c2ba56.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.12dc0703.js",
+    "static/js/runtime-main.3e1546ad.js",
     "static/js/2.e2289acc.chunk.js",
-    "static/css/main.226b7b80.chunk.css",
+    "static/css/main.b94e5996.chunk.css",
     "static/js/main.8e6783a3.chunk.js"
   ]
 }
