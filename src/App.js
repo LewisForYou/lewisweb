@@ -12,7 +12,7 @@ function App() {
     <Router>
     <div className="App"></div>
     <Switch>
-    <Route path="/" exact component={MainPage} />
+    <Route path="/lewisweb" exact component={MainPage} />
     <Route path="/projects" component={routeProjects} />
    </Switch>
   </Router>

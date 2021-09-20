@@ -14,8 +14,7 @@ class MainPage extends React.Component {
   state = {
     showGithub: false,
     showTelegram: false,
-    showProjects: false,
-    text: ''
+    showProjects: false
   }
   handleGithub = () => this.setState({ showGithub: true });
   handleTelegram = () => this.setState({ showTelegram: true });
@@ -27,6 +26,11 @@ class MainPage extends React.Component {
     const seeTelegram = this.state.showTelegram
     const seeProjects = this.state.showProjects
 
+    function ChangingText(params) {
+      let myArray = ['Stop a python 🐍', 'Go to dream 🌠', 'Open a window 🌇']
+      let rand = myArray[Math.floor(Math.random() * myArray.length)];
+      return <h3 className="ChangeText">{rand}</h3>
+    }
     function NotificateGithub(params) {
       if(seeGithub){
         return <span className="NotifyGithub">github.com/lewisforyou</span>
@@ -43,17 +47,17 @@ class MainPage extends React.Component {
         return <span></span>
       }
     }
-      function NotificateProjects(params) {
-        if(seeProjects){
-        return <span className="NotifyProjects">projects</span>
-        } else {
-          return <span></span>
-        }
+    function NotificateProjects(params) {
+      if(seeProjects){
+      return <span className="NotifyProjects">projects</span>
+      } else {
+        return <span></span>
       }
-      // let myArray = ['1', '2']
-      // var rand = myArray[(Math.random() * myArray.length)];
+    }
+      // let myArray = ['1', '2', '3', '4']
+      // let rand = myArray[Math.floor(Math.random() * myArray.length)];
       // setInterval(() => {
-      //   console.log('Interval triggered');
+      //   console.log(rand);
       // }, 1000);
     return (
       <Route>
@@ -63,7 +67,7 @@ class MainPage extends React.Component {
           </div>
           <div className="TextBlock">
             <h1 className="Header">Lewis<span className="Emoji">🌆</span></h1>
-            <h3 className="ChangeText">Stop a python 🐍</h3>
+            <ChangingText />
             <div className="Icons" >
               <a href="https://github.com/LewisForYou" target="_blank" rel="noreferrer" >
               <img 
