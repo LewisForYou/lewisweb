@@ -1,131 +1,134 @@
-.MainBlock{
-    /* background: rgb(39, 88, 163); */
-    width: 400px;
-    height: 200px;
-    left: 50%;
-    right: 50%;
-    position: absolute;             
-    top: 50%;                         
-    transform: translate(-50%, -50%)
+.MainBlock {
+  /* background: rgb(39, 88, 163); */
+  width: 400px;
+  height: 200px;
+  left: 50%;
+  right: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
-.Img{
-    width: 150px;
-    border-radius: 100px;
+.Img {
+  width: 150px;
+  border-radius: 100px;
 }
-.TextBlock{
-    left: 160px;
-    position: absolute;
-    top: 0%;
-    /* background-color: blueviolet; */
-    width: 250px;
-    height: 150px;
+.TextBlock {
+  left: 160px;
+  position: absolute;
+  top: 0%;
+  /* background-color: blueviolet; */
+  width: 250px;
+  height: 150px;
 }
-.TextBlock{
-    display: block;
+.TextBlock {
+  display: block;
 }
-.Header{
-    color: white;
-    margin-top: -0px;
-    font-size: 70px;
-    font-weight: 500;
-    line-height: 50px;
-    height: auto;
-    position: relative;
-    /* background-color: rgba(0, 0, 0, 0.5); */
+.Header {
+  color: white;
+  margin-top: -0px;
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 50px;
+  height: auto;
+  position: relative;
+  /* background-color: rgba(0, 0, 0, 0.5); */
 }
-.Emoji{
-    font-size: 50px
+.Emoji {
+  font-size: 50px;
 }
-.ChangeText{
-    color: #6c757d;
-    margin-top: -50px;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 30px;
-    position: absolute;
-    top: 115px;
-    font-weight: 500;
-    /* background-color: rgba(0, 0, 0, 0.5); */
+.ChangeText {
+  color: #6c757d;
+  margin-top: -50px;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 30px;
+  position: absolute;
+  top: 115px;
+  font-weight: 500;
+  /* background-color: rgba(0, 0, 0, 0.5); */
 }
-.Icons{
-    font-size: 35px;
-    text-align: center;
-    position: absolute;
-    bottom: -10px;
+.Icons {
+  font-size: 35px;
+  text-align: center;
+  position: absolute;
+  bottom: -10px;
 }
-.Github{
-    width: 35px;
-    position: absolute;
-    height: 35px;
-    cursor: pointer;
+.Github {
+  width: 35px;
+  position: absolute;
+  height: 35px;
+  cursor: pointer;
 }
-.Telegram{
-    margin-left: 60px;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
+.Telegram {
+  margin-left: 60px;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
 }
-.Projects{
-    margin-left: 30px;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
+.Projects {
+  margin-left: 30px;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
 }
 
-.NotifyGithub{
-    opacity: 1;
-    color: rgba(0, 0, 0, 1);
-    position: absolute;
-    right: 31%;
-    bottom: 5%;
-    background-color: white;
-    border-radius: 10px;
-    width: 190px;
-    height: 25px;
-    text-align: center;
+.NotifyGithub {
+  opacity: 1;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  right: 31%;
+  bottom: 5%;
+  background-color: white;
+  border-radius: 10px;
+  width: 190px;
+  height: 25px;
+  text-align: center;
 }
 .NotifyGithub::after {
-    content: ''; 
-    position: absolute;
-    left: 40%; bottom: 20px;
-    border: 13px solid transparent; 
-    border-bottom: 12px solid rgb(255, 255, 255); 
+  content: "";
+  position: absolute;
+  left: 40%;
+  bottom: 20px;
+  border: 13px solid transparent;
+  border-bottom: 12px solid rgb(255, 255, 255);
 }
-.NotifyTelegram{
-    opacity: 1;
-    color: white;
-    position: absolute;
-    right: 26%;
-    bottom: 5%;
-    background-color: rgb(0, 136, 204);;
-    border-radius: 10px;
-    width: 120px;
-    text-align: center;
-    height: 25px;
+.NotifyTelegram {
+  opacity: 1;
+  color: white;
+  position: absolute;
+  right: 26%;
+  bottom: 5%;
+  background-color: rgb(0, 136, 204);
+  border-radius: 10px;
+  width: 120px;
+  text-align: center;
+  height: 25px;
 }
 .NotifyTelegram::after {
-    content: ''; 
-    position: absolute;
-    left: 40%; bottom: 20px;
-    border: 13px solid transparent; 
-    border-bottom: 12px solid rgb(0, 136, 204); 
+  content: "";
+  position: absolute;
+  left: 40%;
+  bottom: 20px;
+  border: 13px solid transparent;
+  border-bottom: 12px solid rgb(0, 136, 204);
 }
-.NotifyProjects{
-    opacity: 1;
-    color: white;
-    position: absolute;
-    right: 14.5%;
-    bottom: 5%;
-    background-color: #007bff;
-    border-radius: 10px;
-    width: 70px;
-    height: 25px;
-    text-align: center;
+.NotifyProjects {
+  opacity: 1;
+  color: white;
+  position: absolute;
+  right: 14.5%;
+  bottom: 5%;
+  background-color: #007bff;
+  border-radius: 10px;
+  width: 70px;
+  height: 25px;
+  text-align: center;
 }
 .NotifyProjects::after {
-    content: ''; 
-    position: absolute;
-    left: 30%; bottom: 20px;
-    border: 13px solid transparent; 
-    border-bottom: 12px solid #007bff;
+  content: "";
+  position: absolute;
+  left: 30%;
+  bottom: 20px;
+  border: 13px solid transparent;
+  border-bottom: 12px solid #007bff;
 }
